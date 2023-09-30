@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+
+
+
+    <div class="container-fluid">
+
+
+        <div class="cal">
+
+            <form>
+                
+                <div class="display">
+                    <input type="text" name="dis" value="">
+                </div>
+
+                <div class="r1 row">
+                    <input type="button" value="AC" onclick="dis.value = ''">
+                    <input type="button" value="DE" onclick="dis.value = dis.value.slice(0,-1)">
+                    <input type="button" value="." onclick="dis.value += '.'">
+                    <input type="button" value="/" onclick="dis.value += '/'">
+                </div>
+
+                <div class="r2 row">
+                    <input type="button" value="7" onclick="dis.value += '7'">
+                    <input type="button" value="8" onclick="dis.value += '8'">
+                    <input type="button" value="9" onclick="dis.value += '9'">
+                    <input type="button" value="x" onclick="dis.value += '*'">
+                </div>
+
+                <div class="r3 row">
+                    <input type="button" value="4" onclick="dis.value += '4'">
+                    <input type="button" value="5" onclick="dis.value += '5'">
+                    <input type="button" value="6" onclick="dis.value += '6'">
+                    <input type="button" value="-" onclick="dis.value += '-'">
+                </div>
+
+                <div class="r4 row">
+                    <input type="button" value="1" onclick="dis.value += '1'">
+                    <input type="button" value="2" onclick="dis.value += '2'">
+                    <input type="button" value="3" onclick="dis.value += '3'">
+                    <input type="button" value="+" onclick="dis.value += '+'">
+                </div>
+
+                <div class="r5 row">
+                    <input type="button" value="00" onclick="dis.value += '00'">
+                    <input type="button" value="0" onclick="dis.value += '0'">
+                    <input type="button" value="=" style="width: 150px;" onclick="dis.value = eval(dis.value)">
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+
+
+</html>

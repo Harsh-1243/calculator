@@ -1,0 +1,74 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container-fluid {
+    height: 100vh;
+    background-color: #e3f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cal {
+
+    box-sizing: border-box;
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.display {
+    margin-bottom: 10px;
+    width: auto;
+    display: flex;
+}
+
+.display>input {
+
+    box-shadow: none;
+    text-align: center;
+    font-size: 30px;
+  
+    flex-basis: 400px;
+    text-align: right;
+}
+
+.row {
+
+    margin-bottom: 10px;
+}
+
+input {
+
+    margin-left: 4px;
+    cursor: pointer;
+    border: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #3a4452;
+    box-shadow: 0px 0px 5px white;
+    color: white;
+    font-size: 25px;
+
+}
+
+input:hover{
+
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+
+
+
