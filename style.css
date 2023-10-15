@@ -30,6 +30,7 @@
     margin-bottom: 10px;
     width: auto;
     display: flex;
+    background-color: white;
 }
 
 .display>input {
@@ -37,7 +38,8 @@
     box-shadow: none;
     text-align: center;
     font-size: 30px;
-  
+    background-color:white;
+    color:black;
     flex-basis: 400px;
     text-align: right;
 }
